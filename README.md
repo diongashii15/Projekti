@@ -45,6 +45,5 @@ Bash
 npm run dev
 
 
-<img width="1366" height="768" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/8e455594-0920-4f01-b2e4-5f9f8a3c4a02" />
 
 
