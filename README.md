@@ -18,7 +18,7 @@ Aplikacion modern per menaxhimin e CV-ve ne Cloud, i ndertuar me arkitekturen Re
 
 ### Konfigurimi i Sistemit
 
-Per te lidhur databazen, krijo skedarin `.env` ne folderin `/projekti`:
+Per te lidhur databazen, krijo skedarin `.env` ne folder`:
 
 ```env
 VITE_SUPABASE_URL="[https://ekgeskwvnoldrsiathuh.supabase.co](https://ekgeskwvnoldrsiathuh.supabase.co)"
