@@ -1,35 +1,27 @@
-Cloud Resume Hub - Dokumentacioni i Projektit
-Ky projekt eshte nje aplikacion web per menaxhimin e CV-ve i ndertuar me React, Vite dhe Supabase.
+# Cloud Resume Hub
 
-Teknologjite
-Frontend: React 18, Vite, Tailwind CSS
+![Banner](https://github.com/diongashii15/Projekti/raw/main/projekti/public/screenshot.png)
 
-Backend: Supabase (Database dhe Autentikim)
+Aplikacion modern per menaxhimin e CV-ve ne Cloud, i ndertuar me arkitekturen React dhe Supabase.
 
-Hosting: Vercel
+---
 
-Struktura e Folderave
-Projekti kryesor ndodhet brenda folderit: /Projekti/projekti
+### Teknologjite e Perdorura
 
-Konfigurimi i Variablave .env
-Per te lidhur aplikacionin me databazen, krijo nje skedar me emrin .env brenda folderit /projekti dhe vendos kete tekst:
+| Sektori | Teknologjia |
+| :--- | :--- |
+| **Frontend** | React 18, Vite |
+| **Styling** | Tailwind CSS |
+| **Database** | Supabase (Postgres) |
+| **Hosting** | Vercel |
 
-Code snippet
-VITE_SUPABASE_URL="https://ekgeskwvnoldrsiathuh.supabase.co"
+---
+
+### Konfigurimi i Sistemit
+
+Per te lidhur databazen, krijo skedarin `.env` ne folderin `/projekti`:
+
+```env
+VITE_SUPABASE_URL="[https://ekgeskwvnoldrsiathuh.supabase.co](https://ekgeskwvnoldrsiathuh.supabase.co)"
 VITE_SUPABASE_ANON_KEY="sb_publishable_H9yYSfdcAvUGwTbBssxMuQ_B5oVikbo"
 VITE_SUPABASE_PROJECT_ID="ekgeskwvnoldrsiathuh"
-Udhezimet per Instalimin
-Klononi repozitorin nga GitHub:
-git clone https://github.com/diongashii15/Projekti.git
-
-Hyni ne folderin e punes:
-cd Projekti/projekti
-
-Instaloni paketat e nevojshme:
-npm install
-
-Nisni projektin ne localhost:
-npm run dev
-
-Autori
-Zhvilluar nga diongashii15.
