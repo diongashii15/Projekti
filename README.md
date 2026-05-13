@@ -12,7 +12,7 @@ Aplikacion modern per menaxhimin e CV-ve ne Cloud, i ndertuar me arkitekturen Re
 | **Frontend** | React 18, Vite |
 | **Styling** | Tailwind CSS |
 | **Database** | Supabase (Postgres) |
-| **Hosting** | Vercel |
+
 
 ---
 
