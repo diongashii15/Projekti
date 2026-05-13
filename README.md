@@ -1,30 +1,11 @@
-# Cloud Resume Hub
+Cloud Resume Hub - Dokumentacioni i Projektit
+Ky projekt eshte nje aplikacion web per menaxhimin e CV-ve i ndertuar me React, Vite dhe Supabase.
 
-
-Aplikacion modern per menaxhimin e CV-ve ne Cloud, i ndertuar me arkitekturen React dhe Supabase.
-
----
-
-### Teknologjite e Perdorura
-
-| Sektori | Teknologjia |
-| :--- | :--- |
-| **Frontend** | React 18, Vite |
-| **Styling** | Tailwind CSS |
-| **Database** | Supabase (Postgres) |
-
-
----
-
-### Konfigurimi i Sistemit
-
-Per te lidhur databazen, krijo skedarin `.env` ne folderin `/projekti`:
-
-```env
-VITE_SUPABASE_URL="[https://ekgeskwvnoldrsiathuh.supabase.co](https://ekgeskwvnoldrsiathuh.supabase.co)"
+Konfigurimi i Sistemit (.env)
+Code snippet
+VITE_SUPABASE_URL="https://ekgeskwvnoldrsiathuh.supabase.co"
 VITE_SUPABASE_ANON_KEY="sb_publishable_H9yYSfdcAvUGwTbBssxMuQ_B5oVikbo"
 VITE_SUPABASE_PROJECT_ID="ekgeskwvnoldrsiathuh"
-
 Instalimi Lokalisht
 1. Klonimi i Projektit
 
@@ -43,9 +24,5 @@ npm install
 Bash
 npm run dev
 Build per Deploy ne Vercel
-Per te gjeneruar versionin final, perdorni komanden:
-
 Bash
 npm run build
-Autori
-Zhvilluar nga diongashii15.
