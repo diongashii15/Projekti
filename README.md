@@ -31,11 +31,5 @@ npm install
 Nisni projektin ne localhost:
 npm run dev
 
-Build per Deploy
-Per te krijuar versionin final per publikim ne Vercel, perdorni komanden:
-npm run build
-
-Ky proces do te gjeneroje folderin /dist i cili permban kodin e gatshem per server.
-
 Autori
 Zhvilluar nga diongashii15.
